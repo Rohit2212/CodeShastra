@@ -1,0 +1,138 @@
+html,body{
+    margin: 0;
+    height: 100%;
+}
+
+.content{
+    
+    height:100vh;
+    width: 100%;
+    background-image: url(train2.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+#navbar{
+    
+    width: 100%;
+    height: 50px;
+    display: flex;
+    
+    justify-content:space-between;
+    
+}
+#logo{
+    
+    width: 5%;
+    height: 50px;
+    float: left;
+    margin-right: 50px;
+    padding: 8px;
+    cursor: pointer;
+    
+}
+#name{
+
+    width: 45%;
+    height: 50px;
+    text-align: center;
+}
+#log{
+    
+    width: 10%;
+    height: 50px;
+}
+img{
+    height: 200px;
+    width:200x;
+
+}
+marquee{
+    
+    height: 180px;
+}
+#box{
+    
+    height: 300px;
+    width: 100%;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.card_1{
+    
+    width: 280px;
+    height: 280px;
+    position: relative;
+    border-radius: 5px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 7px;
+    background-image: url(train3.jpeg);
+    opacity: 1;
+    transition: 0.3s;
+    
+}
+.card_2{
+    
+    width: 280px;
+    height: 280px;
+    border-radius: 5px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 7px;
+    background-image: url(student1.jpeg);
+   
+    
+}
+.card_3{
+    
+    width: 280px;
+    height: 280px;
+    border-radius: 5px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 7px;
+    background-image: url(college1.jpg);
+    
+}
+.btnrail,.btnstudent,.btncollege{
+position: absolute;
+    top: 40%;
+    left:50%;
+    padding: 12px;
+    transform: translate(-50%,-50%);
+color: brown;
+border-radius:20px;
+opacity: 0;
+transition:  0.3s;
+}
+.btnrail:hover{
+    background-color: chartreuse;
+    color: blue;
+}
+
+.card_1:hover .btnrail{
+    opacity: 1;
+    }
+
+    .btnstudent:hover{
+        background-color: chartreuse;
+        color: blue;
+    }
+    
+    .card_2:hover .btnstudent{
+        opacity: 1;
+        }
+        .btncollege:hover{
+            background-color: chartreuse;
+            color: blue;
+        }
+      
+        .card_3:hover .btncollege{
+            opacity: 1;
+            }
